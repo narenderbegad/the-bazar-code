@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://narenderbegad.github.io/the-bazaar-code/sitemap.xml
