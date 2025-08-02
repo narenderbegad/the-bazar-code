@@ -1,1 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bazaar Code | How Indian Local Businesses Win in 2025</title>
+    <meta name="description" content="Learn how Indian local businesses get 3X more customers in 2025 using Google, Instagram Reels & WhatsApp. A practical, no-fluff lead gen guide.">
+    <meta name="keywords" content="local business india, google my business india, whatsapp marketing, digital growth, 2025 small business india, aishnar groups, narender begad">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#f59e0b',
+                        accent: '#10b981'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        
+        .animate-count {
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .scroll-smooth {
+            scroll-behavior: smooth;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        .step-card {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .step-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .step-card:hover::before {
+            left: 100%;
+        }
+    </style>
+</head>
+<body class="scroll-smooth bg-gray-50">
+    <!-- Header -->
+    <header class="fixed top-0 w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-lg">A</span>
+                </div>
+                <span class="text-xl font-bold text-gray-800">AishNar Groups</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-6">
+                <a href="#journey" class="text-gray-600 hover:text-blue-600 transition-colors">The Journey</a>
+                <a href="#platforms" class="text-gray-600 hover:text-blue-600 transition-colors">Platforms</a>
+                <a href="#strategy" class="text-gray-600 hover:text-blue-600 transition-colors">Strategy</a>
+                <a href="#action" class="text-gray-600 hover:text-blue-600 transition-colors">Action Plan</a>
+                <a href="https://narenderbegad.github.io/reports/" target="_blank" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">All AishNar Reports</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden p-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 py-2 space-y-2">
+                <a href="#journey" class="block py-2 text-gray-600 hover:text-blue-600">The Journey</a>
+                <a href="#platforms" class="block py-2 text-gray-600 hover:text-blue-600">Platforms</a>
+                <a href="#strategy" class="block py-2 text-gray-600 hover:text-blue-600">Strategy</a>
+                <a href="#action" class="block py-2 text-gray-600 hover:text-blue-600">Action Plan</a>
+                <a href="https://narenderbegad.github.io/reports/" target="_blank" class="block py-2 text-blue-600 font-medium">All AishNar Reports</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 gradient-bg text-white min-h-screen flex items-center">
+        <div class="container mx-auto px-4 text-center">
+            <div class="mb-6 fade-in-up">
+                <span class="inline-block bg-yellow-400 text-gray-900 px-4 py-2 rounded-full text-sm font-bold mb-4 animate-pulse">
+                    🚀 TRENDING: 2025 Growth Strategy
+                </span>
+            </div>
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 fade-in-up leading-tight">
+                How Local Businesses in India Can Get <span class="text-yellow-300 relative">
+                    3X More Customers
+                    <svg class="absolute -bottom-2 left-0 w-full h-3" viewBox="0 0 100 10" fill="none">
+                        <path d="M0 8C20 4 40 2 60 4C80 6 90 8 100 6" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </span> in 2025
+            </h1>
+            <p class="text-lg sm:text-xl md:text-2xl mb-8 max-w-4xl mx-auto opacity-90 fade-in-up">
+                This interactive report cuts through the noise to show you exactly where your customers are. Discover the winning strategy combining Google, Instagram, and WhatsApp to turn digital discovery into real sales.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in-up">
+                <a href="https://wa.me/919157255093?text=Hi! I want to implement The Bazaar Code strategy for my business. Can you help me get 3X more customers?" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg flex items-center justify-center">
+                    💬 Get Personal Help on WhatsApp
+                </a>
+                <a href="#journey" class="bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
+                    🎯 Start the Journey
+                </a>
+            </div>
+            <div class="mt-8 fade-in-up">
+                <p class="text-sm opacity-75 mb-2">Trusted by 1000+ Indian businesses</p>
+                <div class="flex justify-center space-x-1">
+                    <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+                    <span class="text-sm ml-2">4.9/5 rating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">📊 The Numbers Don't Lie</h2>
+                <p class="text-gray-600">Here's why 2025 is THE year for local businesses to go digital</p>
+            </div>
+            <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                <div class="text-center p-6 md:p-8 card-hover bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl border-2 border-blue-200 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-white px-3 py-1 rounded-bl-lg text-xs font-bold">HOT 🔥</div>
+                    <div class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
+                        <span class="counter" data-target="47">0</span>M
+                    </div>
+                    <h3 class="text-lg md:text-xl font-semibold mb-2">💰 New Consumers</h3>
+                    <p class="text-gray-600 text-sm md:text-base">will enter India's market by 2025.</p>
+                </div>
+                
+                <div class="text-center p-6 md:p-8 card-hover bg-gradient-to-br from-green-50 to-green-100 rounded-xl border-2 border-green-200 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-green-600 text-white px-3 py-1 rounded-bl-lg text-xs font-bold">BOOM 💥</div>
+                    <div class="text-4xl md:text-5xl font-bold text-green-600 mb-4">
+                        <span class="counter" data-target="60">0</span>%
+                    </div>
+                    <h3 class="text-lg md:text-xl font-semibold mb-2">🏪 New E-Retailers</h3>
+                    <p class="text-gray-600 text-sm md:text-base">are from Tier 2+ cities, creating a local digital economy.</p>
+                </div>
+                
+                <div class="text-center p-6 md:p-8 card-hover bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl border-2 border-purple-200 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-purple-600 text-white px-3 py-1 rounded-bl-lg text-xs font-bold">WOW ⚡</div>
+                    <div class="text-4xl md:text-5xl font-bold text-purple-600 mb-4">
+                        <span class="counter" data-target="3.6">0</span>
+                    </div>
+                    <h3 class="text-lg md:text-xl font-semibold mb-2">📱 Apps Used on Average</h3>
+                    <p class="text-gray-600 text-sm md:text-base">by Gen Z to find one local business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Journey Section -->
+    <section id="journey" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="inline-block bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-bold mb-4">
+                    🚨 ALERT: Customer Behavior Has Changed
+                </span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">The Modern Customer Journey is Changing</h2>
+                <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                    Customers no longer follow a straight line. They jump between platforms for discovery, validation, and conversation. Understand this shift to win.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 md:gap-12">
+                <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg card-hover border-l-4 border-red-500 relative">
+                    <div class="absolute -top-3 -right-3 bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">!</div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">🔍 Search vs. Social: The Great Shift</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                        Traditional search is declining while discovery on social media is exploding. Modern consumers start their journey on Instagram, validate on Google, and convert on WhatsApp. This multi-platform behavior requires a new approach to customer acquisition.
+                    </p>
+                    <div class="mt-4 p-3 bg-red-50 rounded-lg">
+                        <p class="text-red-700 text-sm font-semibold">⚠️ Missing this = Missing customers</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg card-hover border-l-4 border-blue-500 relative">
+                    <div class="absolute -top-3 -right-3 bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">Z</div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">🎯 Gen Z's Discovery Toolkit</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                        Younger consumers are far more likely to begin their shopping journey on social platforms. They use visual discovery, peer recommendations, and instant messaging to make purchase decisions. Businesses that adapt to this behavior will capture the next generation of customers.
+                    </p>
+                    <div class="mt-4 p-3 bg-blue-50 rounded-lg">
+                        <p class="text-blue-700 text-sm font-semibold">💡 Adapt now = Future-proof your business</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section id="platforms" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-bold mb-4">
+                    🎯 THE WINNING FORMULA
+                </span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">The Winning Trio: Your 2025 Digital Toolkit</h2>
+                <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                    Mastering these three platforms is the key to unlocking growth. Each plays a unique and vital role in the customer journey.
+                </p>
+            </div>
+            
+            <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                <div class="bg-gradient-to-br from-red-50 to-red-100 p-6 md:p-8 rounded-xl shadow-lg card-hover border-2 border-red-200 relative group">
+                    <div class="absolute top-4 right-4 bg-red-500 text-white px-2 py-1 rounded text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                        TRUST ✓
+                    </div>
+                    <div class="text-4xl md:text-5xl mb-4">🔍</div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Google – The Foundation of Trust</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base mb-4">
+                        Capture customers with high intent. An optimized Google Business Profile is your digital storefront. When customers search for your services, you need to be visible, credible, and accessible.
+                    </p>
+                    <div class="bg-red-200 text-red-800 px-3 py-2 rounded-lg text-sm font-semibold">
+                        🎯 High-Intent Customers
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-pink-50 to-purple-100 p-6 md:p-8 rounded-xl shadow-lg card-hover border-2 border-purple-200 relative group">
+                    <div class="absolute top-4 right-4 bg-purple-500 text-white px-2 py-1 rounded text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                        VIRAL 🚀
+                    </div>
+                    <div class="text-4xl md:text-5xl mb-4">📸</div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Instagram – The Engine of Discovery</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base mb-4">
+                        Go viral with Reels. Showcase your products and services through authentic, engaging video content. Drive impulse purchases and build brand awareness through visual storytelling.
+                    </p>
+                    <div class="bg-purple-200 text-purple-800 px-3 py-2 rounded-lg text-sm font-semibold">
+                        📈 Massive Reach Potential
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 md:p-8 rounded-xl shadow-lg card-hover border-2 border-green-200 relative group">
+                    <div class="absolute top-4 right-4 bg-green-500 text-white px-2 py-1 rounded text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                        SALES 💰
+                    </div>
+                    <div class="text-4xl md:text-5xl mb-4">💬</div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">WhatsApp – The Conversion Catalyst</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base mb-4">
+                        Close the deal. Turn interest into sales through personalized conversations. Enable seamless communication, showcase products, and process payments all within one trusted platform.
+                    </p>
+                    <div class="bg-green-200 text-green-800 px-3 py-2 rounded-lg text-sm font-semibold">
+                        💸 Direct Sales Channel
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategy Section -->
+    <section id="strategy" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="inline-block bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-bold mb-4">
+                    🧩 THE MASTER PLAN
+                </span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Your Integrated Channel Strategy</h2>
+                <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                    Success isn't about using these platforms in isolation. It's about making them work together.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden border-2 border-purple-200">
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead class="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+                            <tr>
+                                <th class="px-4 md:px-6 py-4 text-left font-semibold text-sm md:text-base">🎯 Journey Stage</th>
+                                <th class="px-4 md:px-6 py-4 text-left font-semibold text-sm md:text-base">🔍 Google Actions</th>
+                                <th class="px-4 md:px-6 py-4 text-left font-semibold text-sm md:text-base">📸 Instagram Reels Actions</th>
+                                <th class="px-4 md:px-6 py-4 text-left font-semibold text-sm md:text-base">💬 WhatsApp Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="hover:bg-blue-50 transition-colors">
+                                <td class="px-4 md:px-6 py-4 font-bold text-blue-600 text-sm md:text-base">
+                                    <div class="flex items-center">
+                                        <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs mr-2">1</span>
+                                        Awareness
+                                    </div>
+                                </td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Optimize GBP & Local SEO. Run "Pay to Pin" ads.</td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Create authentic video content. Use trending audio.</td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Promote QR codes. Run "Click to WhatsApp" ads.</td>
+                            </tr>
+                            <tr class="hover:bg-green-50 transition-colors">
+                                <td class="px-4 md:px-6 py-4 font-bold text-green-600 text-sm md:text-base">
+                                    <div class="flex items-center">
+                                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs mr-2">2</span>
+                                        Engagement
+                                    </div>
+                                </td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Respond to reviews & Q&A. Post regular updates.</td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Include strong CTAs. Engage with comments & DMs.</td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Set up Catalogs. Use automated greetings.</td>
+                            </tr>
+                            <tr class="hover:bg-purple-50 transition-colors">
+                                <td class="px-4 md:px-6 py-4 font-bold text-purple-600 text-sm md:text-base">
+                                    <div class="flex items-center">
+                                        <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs mr-2">3</span>
+                                        Conversion
+                                    </div>
+                                </td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Drive calls & directions from Maps.</td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Direct users to WhatsApp via "Send Message" CTA.</td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Enable in-chat UPI payments. Offer personalized deals.</td>
+                            </tr>
+                            <tr class="hover:bg-orange-50 transition-colors">
+                                <td class="px-4 md:px-6 py-4 font-bold text-orange-600 text-sm md:text-base">
+                                    <div class="flex items-center">
+                                        <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs mr-2">4</span>
+                                        Loyalty
+                                    </div>
+                                </td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Encourage reviews. Update GBP with new offers.</td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Share user-generated content. Run loyalty ads.</td>
+                                <td class="px-4 md:px-6 py-4 text-gray-600 text-sm">Use Broadcast Lists & Channels for updates.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bg-gradient-to-r from-purple-50 to-blue-50 p-4 text-center">
+                    <p class="text-sm text-gray-600">💡 <strong>Pro Tip:</strong> Each stage builds on the previous one. Master them in order for maximum impact!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action Plan Section -->
+    <section id="action" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="inline-block bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-bold mb-4 animate-pulse">
+                    🚀 TAKE ACTION NOW
+                </span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Your 3-Step Action Plan</h2>
+                <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                    Ready to start? Here's what to do in the next 3 weeks to get more customers.
+                </p>
+                <div class="mt-6 bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded-lg max-w-2xl mx-auto">
+                    <p class="text-yellow-800 font-semibold">⏰ Don't wait! Every day you delay is money left on the table.</p>
+                </div>
+            </div>
+            
+            <div class="space-y-6 md:space-y-8">
+                <div class="bg-gradient-to-r from-blue-50 to-blue-100 p-6 md:p-8 rounded-xl shadow-lg step-card border-2 border-blue-200 relative">
+                    <div class="absolute -top-3 -left-3 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">⚡</div>
+                    <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-4">
+                        <div class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0 mx-auto md:mx-0">1</div>
+                        <div class="text-center md:text-left">
+                            <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">🔍 Optimize Your Google Business Profile</h3>
+                            <div class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold mb-3 inline-block">
+                                ⏱️ Timeline: This Week
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm md:text-base">
+                                Claim and fill out your free GBP completely. Add photos, hours, services, and respond to reviews. This is your digital storefront that builds trust.
+                            </p>
+                            <div class="bg-blue-200 text-blue-800 p-3 rounded-lg">
+                                <p class="text-sm font-semibold">💡 Why it works: Makes you look legitimate and helps customers find you when they're ready to buy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-r from-pink-50 to-purple-100 p-6 md:p-8 rounded-xl shadow-lg step-card border-2 border-purple-200 relative">
+                    <div class="absolute -top-3 -left-3 bg-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">🚀</div>
+                    <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-4">
+                        <div class="bg-purple-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0 mx-auto md:mx-0">2</div>
+                        <div class="text-center md:text-left">
+                            <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">📸 Engage on Instagram Reels</h3>
+                            <div class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-bold mb-3 inline-block">
+                                ⏱️ Timeline: Next 2 Weeks
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm md:text-base">
+                                Create short, authentic videos showcasing your products or services. Use trending audio and include clear calls-to-action directing viewers to WhatsApp.
+                            </p>
+                            <div class="bg-purple-200 text-purple-800 p-3 rounded-lg">
+                                <p class="text-sm font-semibold">💡 Why it works: Reels are where visual discovery happens. This is how new customers will find you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-r from-green-50 to-green-100 p-6 md:p-8 rounded-xl shadow-lg step-card border-2 border-green-200 relative">
+                    <div class="absolute -top-3 -left-3 bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">💰</div>
+                    <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-4">
+                        <div class="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0 mx-auto md:mx-0">3</div>
+                        <div class="text-center md:text-left">
+                            <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">💬 Set Up WhatsApp for Sales</h3>
+                            <div class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mb-3 inline-block">
+                                ⏱️ Timeline: Next 3 Weeks
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm md:text-base">
+                                Download WhatsApp Business app. Set up your catalog, automated greetings, and quick replies. Enable UPI payments for seamless transactions.
+                            </p>
+                            <div class="bg-green-200 text-green-800 p-3 rounded-lg">
+                                <p class="text-sm font-semibold">💡 Why it works: This is the preferred channel for Indian consumers to communicate and make purchases.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <div class="bg-gradient-to-r from-orange-100 to-red-100 p-6 rounded-xl border-2 border-orange-300 max-w-2xl mx-auto">
+                    <h4 class="text-xl font-bold text-gray-800 mb-2">🎯 Ready to 3X Your Customers?</h4>
+                    <p class="text-gray-600 mb-4">Follow this plan and watch your business grow. Thousands of Indian businesses are already seeing results!</p>
+                    <div class="flex justify-center space-x-1 mb-2">
+                        <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="text-sm text-gray-500 mb-4">"Increased my customers by 250% in just 2 months!" - Rajesh, Mumbai</p>
+                    
+                    <a href="https://wa.me/919157255093?text=Hi! I need help implementing The Bazaar Code strategy. Can you guide me through the 3-step action plan?" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg inline-flex items-center">
+                        💬 Get Expert Help Now - WhatsApp Me!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center space-y-6 md:space-y-0">
+                <div class="text-center md:text-left">
+                    <div class="flex items-center justify-center md:justify-start space-x-3 mb-3">
+                        <div class="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">A</span>
+                        </div>
+                        <span class="text-2xl font-bold">AishNar Groups</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">Empowering local businesses with digital insights.</p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="https://narenderbegad.github.io/reports/" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors inline-flex items-center">
+                            📊 View All Published Reports →
+                        </a>
+                        <a href="http://aishnar.github.io/aishnar-groups/" target="_blank" class="border border-gray-400 hover:border-white text-gray-300 hover:text-white px-4 py-2 rounded-lg font-semibold transition-colors inline-flex items-center">
+                            🔗 Visit AishNar Groups →
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-gray-400 mb-2">A report by <span class="text-white font-semibold">Narender Begad</span></p>
+                    <p class="text-sm text-gray-500">© 2025 All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="https://wa.me/919157255093?text=Hi! I saw The Bazaar Code report and want to grow my business. Can you help me get started?" target="_blank" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all transform hover:scale-110 flex items-center justify-center group">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.700"/>
+            </svg>
+            <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-6 h-6 flex items-center justify-center animate-pulse">
+                !
+            </span>
+            <div class="absolute right-16 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">
+                Need help? Chat with me!
+            </div>
+        </a>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Counter animation
+        function animateCounters() {
+            const counters = document.querySelectorAll('.counter');
+            
+            counters.forEach(counter => {
+                const target = parseFloat(counter.getAttribute('data-target'));
+                const increment = target / 100;
+                let current = 0;
+                
+                const updateCounter = () => {
+                    if (current < target) {
+                        current += increment;
+                        if (target === 3.6) {
+                            counter.textContent = current.toFixed(1);
+                        } else {
+                            counter.textContent = Math.ceil(current);
+                        }
+                        setTimeout(updateCounter, 20);
+                    } else {
+                        if (target === 3.6) {
+                            counter.textContent = target.toFixed(1);
+                        } else {
+                            counter.textContent = target;
+                        }
+                    }
+                };
+                
+                updateCounter();
+            });
+        }
+
+        // Intersection Observer for counter animation
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe the stats section
+        const statsSection = document.querySelector('.counter').closest('section');
+        observer.observe(statsSection);
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                // Close mobile menu if open
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('bg-white/95', 'backdrop-blur-sm');
+            } else {
+                header.classList.remove('bg-white/95', 'backdrop-blur-sm');
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'968bfd7b759d3c8e',t:'MTc1NDEyMTA4Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
 
